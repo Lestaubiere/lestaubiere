@@ -1,0 +1,50 @@
+{
+  "home": {
+    "label": "Home",
+    "path": "/en"
+  },
+  "campsite": {
+    "label": "The campsite",
+    "path": "/en/campsite"
+  },
+  "leisure": {
+    "label": "Leisure",
+    "path": "/en/leisure"
+  },
+  "facilities": {
+    "label": "Facilities",
+    "path": "/en/facilities"
+  },
+  "rentals": {
+    "label": "Rentals",
+    "path": "/en/rentals"
+  },
+  "surroundings": {
+    "label": "Surroundings",
+    "path": "/en/surroundings"
+  },
+  "prices": {
+    "label": "Prices",
+    "path": "/en/prices"
+  },
+  "booking": {
+    "label": "Booking",
+    "path": "/en/booking"
+  },
+  "contact": {
+    "label": "Contact",
+    "path": "/en/contact"
+  },
+  "legalMentions": {
+    "label": "Mentions légales",
+    "path": "/en/mentions-legales"
+  },
+  "privacy": {
+    "label": "Privacy",
+    "path": "/en/privacy"
+  },
+  "bookingMentions": {
+    "label": "Booking Conditions",
+    "path": "/en/booking-conditions"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "home": {
+    "label": "Accueil",
+    "path": "/fr"
+  },
+  "campsite": {
+    "label": "Le camping",
+    "path": "/fr/le-camping"
+  },
+  "leisure": {
+    "label": "Détente",
+    "path": "/fr/detente"
+  },
+  "facilities": {
+    "label": "Aménagements",
+    "path": "/fr/amenagements"
+  },
+  "rentals": {
+    "label": "Locations",
+    "path": "/fr/locations"
+  },
+  "surroundings": {
+    "label": "Environs",
+    "path": "/fr/environs"
+  },
+  "prices": {
+    "label": "Tarifs",
+    "path": "/fr/tarifs"
+  },
+  "booking": {
+    "label": "Réserver",
+    "path": "/fr/reserver"
+  },
+  "contact": {
+    "label": "Contact",
+    "path": "/fr/contact"
+  },
+  "legalMentions": {
+    "label": "Mentions légales",
+    "path": "/fr/mentions-legales"
+  },
+  "privacy": {
+    "label": "Privacy",
+    "path": "/fr/privacy"
+  },
+  "bookingMentions": {
+    "label": "Conditions de réservation",
+    "path": "/fr/conditions-de-reservation"
+  }
+}

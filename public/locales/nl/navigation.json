@@ -1,0 +1,54 @@
+{
+  "home": {
+    "label": "Home",
+    "path": "/nl"
+  },
+  "campsite": {
+    "label": "De camping",
+    "path": "/nl/camping"
+  },
+  "leisure": {
+    "label": "Ontspanning",
+    "path": "/nl/ontspanning"
+  },
+  "facilities": {
+    "label": "Voorzieningen",
+    "path": "/nl/voorzieningen"
+  },
+  "rentals": {
+    "label": "Verhuuraccommodaties",
+    "path": "/nl/verhuuraccommodaties"
+  },
+  "surroundings": {
+    "label": "Omgeving",
+    "path": "/nl/omgeving"
+  },
+  "prices": {
+    "label": "Tarieven",
+    "path": "/nl/tarieven"
+  },
+  "booking": {
+    "label": "Reserveren",
+    "path": "/nl/reserveren"
+  },
+  "vacatures": {
+    "label": "Vacatures",
+    "path": "/nl/vacatures"
+  },
+  "contact": {
+    "label": "Contact",
+    "path": "/nl/contact"
+  },
+  "legalMentions": {
+    "label": "Mentions légales",
+    "path": "/nl/mentions-legales"
+  },
+  "privacy": {
+    "label": "Privacy",
+    "path": "/nl/privacy"
+  },
+  "bookingMentions": {
+    "label": "Reserverings Voorwaarden",
+    "path": "/nl/reserverings-voorwaarden"
+  }
+}
