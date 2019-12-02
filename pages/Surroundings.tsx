@@ -1,18 +1,14 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import { includeDefaultNamespaces } from '../plugins/i18n';
 
 function Surroundings() {
-  return (
-    <Layout title="Surroundings">
-      <div className="Surroundings">Surroundings</div>
-    </Layout>
-  );
+  return <div className="Surroundings">Surroundings</div>;
 }
 
 Surroundings.getInitialProps = () => {
   return {
-    namespacesRequired: ['navigation'],
+    namespacesRequired: includeDefaultNamespaces([]),
   };
 };
 

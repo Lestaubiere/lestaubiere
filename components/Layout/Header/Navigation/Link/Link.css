@@ -1,0 +1,27 @@
+.NavigationLink {
+  position: relative;
+  margin: 0 6px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.NavigationLink::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 1px;
+  left: 50%;
+  bottom: 0;
+  margin-top: 5px;
+  background-color: #ffffff;
+
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* ACTIVE STATE */
+.NavigationLink.NavigationLink--is-active::after {
+  width: 100%;
+  left: 0;
+}

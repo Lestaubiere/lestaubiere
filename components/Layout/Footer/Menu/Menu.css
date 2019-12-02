@@ -1,0 +1,26 @@
+.FooterMenu__title {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.FooterMenu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.FooterMenu__link {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.FooterMenu__link:hover {
+  text-decoration: underline;
+}
+
+.FooterMenu__link:not(:last-child) {
+  margin-bottom: 8px;
+}

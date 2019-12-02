@@ -1,27 +1,27 @@
 import React, { ReactChild } from 'react';
-import Head from 'next/head';
 
 import { Header, Footer } from '.';
 
 import './Layout.css';
 
 interface Props {
-  title: string;
   children: ReactChild;
 }
 
 function Layout(props: Props) {
   return (
     <div className="Layout">
-      <Head>
+      {/* <Head>
         <title>{props.title} | Camping Lestaubière</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="layout__header">
+      </Head> */}
+      <div className="Layout__header">
         <Header />
       </div>
-      <div className="layout__content">{props.children}</div>
-      <div className="layout__footer">
+      <div className="Layout__content">
+        <div className="Layout__content-container">{props.children}</div>
+      </div>
+      <div className="Layout__footer">
         <Footer />
       </div>
     </div>

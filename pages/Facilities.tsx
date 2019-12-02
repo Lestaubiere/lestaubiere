@@ -1,18 +1,14 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import { includeDefaultNamespaces } from '../plugins/i18n';
 
 function Facilities() {
-  return (
-    <Layout title="Facilities">
-      <div className="Facilities">Facilities</div>
-    </Layout>
-  );
+  return <div className="Facilities">Facilities</div>;
 }
 
 Facilities.getInitialProps = () => {
   return {
-    namespacesRequired: ['navigation'],
+    namespacesRequired: includeDefaultNamespaces([]),
   };
 };
 

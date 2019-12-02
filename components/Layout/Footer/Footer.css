@@ -1,0 +1,15 @@
+.Footer__container {
+  padding: 24px 0;
+  background-color: #212121;
+}
+
+.Footer__content {
+  display: flex;
+  max-width: 1256px;
+  margin: 0 auto;
+}
+
+.Footer__column {
+  flex-shrink: 0;
+  width: 25%;
+}

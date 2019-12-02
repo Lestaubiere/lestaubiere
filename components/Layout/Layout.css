@@ -1,0 +1,15 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Layout__content {
+  flex-grow: 1;
+  margin: 75px 0;
+}
+
+.Layout__content-container {
+  max-width: 1256px;
+  margin: 0 auto;
+}

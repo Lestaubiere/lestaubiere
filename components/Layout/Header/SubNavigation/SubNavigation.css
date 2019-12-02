@@ -1,0 +1,12 @@
+.SubNavigation {
+  width: 1256px;
+  margin: 0 auto;
+}
+
+.SubNavigation__container {
+  position: absolute;
+  bottom: calc(-250px / 2);
+  width: 1256px;
+  display: flex;
+  justify-content: space-between;
+}

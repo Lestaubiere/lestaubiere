@@ -1,0 +1,9 @@
+{
+  "zoover": "http://www.zoover.fr/france/aquitaine/pont-saint-mamet-dordogne/lestaubiere/camping",
+  "facebook": "Suivez-nous sur Facebook",
+  "cookie": {
+    "message": "Nous utilisons des cookies sur ce site. En acceptant, vous nous autorisez à placer des cookies. Vous pouvez retrouver une liste détaillée des cookies que nous utilisons {ici}.",
+    "denyButton": "S'opposer",
+    "acceptButton": "Accepter"
+  }
+}

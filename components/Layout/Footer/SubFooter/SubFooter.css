@@ -1,0 +1,29 @@
+.SubFooter {
+  padding: 10px 0;
+  background-color: #1b1b1b;
+  font-size: 15px;
+}
+
+.SubFooter__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1256px;
+  margin: 0 auto;
+}
+
+.SubFooter__link {
+  color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+}
+
+.SubFooter__link:hover {
+  text-decoration: underline;
+}
+
+.SubFooter__link:not(:last-child) {
+  margin-right: 24px;
+}
+
+.SubFooter__copyright {
+  color: rgba(255, 255, 255, 0.25);
+}

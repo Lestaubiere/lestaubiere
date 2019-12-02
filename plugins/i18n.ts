@@ -4,12 +4,15 @@ export const nextI18next = new NextI18Next({
   browserLanguageDetection: false,
   defaultLanguage: 'nl',
   otherLanguages: ['fr', 'en'],
-  localePath: 'public/locales',
+  localePath: typeof window === 'undefined' ? 'public/locales' : 'locales',
   localeSubpaths: {
     nl: 'nl',
     fr: 'fr',
     en: 'en',
   },
 });
+
+export const includeDefaultNamespaces = (namespaces: string[]) =>
+  ['navigation', 'widget', 'footer'].concat(namespaces);
 
 export const appWithTranslation = nextI18next.appWithTranslation;
